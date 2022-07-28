@@ -47,6 +47,9 @@ test.describe('Theia Text Editor', () => {
         await textEditor.save();
         expect(await textEditor.isDirty()).toBe(false);
         await textEditor.close();
+
+        // FIXME this is expected to fail in order to test the reporting
+        expect(true).toBe(false);
     });
 
 });
