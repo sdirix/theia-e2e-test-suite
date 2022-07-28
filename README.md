@@ -1,4 +1,4 @@
-# Theia End-to-End Test Suite
+# Theia End-to-End Test Suite ![main](https://github.com/eclipse-theia/theia-e2e-test-suite/actions/workflows/main.yml/badge.svg?branch=main) [![Report](https://img.shields.io/badge/Test%20Report-History-blue.svg)](https://eclipse-theia.github.io/theia-e2e-test-suite)
 
 *A community-driven collection of end-to-end test cases to validate the user-facing behavior of [Theia](https://github.com/eclipse-theia/theia).*
 
@@ -6,7 +6,7 @@
 
 The tests are based on [Theia 🎭 Playwright](https://github.com/eclipse-theia/theia/tree/master/examples/playwright) and are located in the folder [`tests`](./tests).
 Each test is defined in a dedicated `*.test.ts` file.
-The tests run periodically against Theia's `main` branch.
+The tests run periodically against Theia's `main` branch and is published to the [test report](https://eclipse-theia.github.io/theia-e2e-test-suite).
 
 > This test suite is not maintained by the core committers of Theia, but is a community effort.
 > Feel free to add tests and benefit from them being executed periodically against Theia master.
