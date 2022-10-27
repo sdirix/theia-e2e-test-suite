@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Oct 07 05:02:03 GMT 2022","Fri Oct 07 05:02:18 GMT 2022","14924","","theia-text-editor.test.js","Theia Text Editor","","","should be visible and active after opening ""sample.txt""",""
-"passed","Fri Oct 07 05:02:03 GMT 2022","Fri Oct 07 05:02:03 GMT 2022","62","","theia-app.test.js","Theia app","","","should have menu bar items",""
-"passed","Fri Oct 07 05:02:03 GMT 2022","Fri Oct 07 05:02:03 GMT 2022","24","","theia-app.test.js","Theia app","","","should show status bar",""
-"passed","Fri Oct 07 05:02:18 GMT 2022","Fri Oct 07 05:02:19 GMT 2022","984","","theia-text-editor.test.js","Theia Text Editor","","","should be dirty after changing the file contents and clean after save",""
-"passed","Fri Oct 07 05:01:57 GMT 2022","Fri Oct 07 05:02:03 GMT 2022","5229","","theia-app.test.js","Theia app","","","should show main content panel",""
