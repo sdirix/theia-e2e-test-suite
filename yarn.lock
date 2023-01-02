@@ -10,10 +10,10 @@
     "@types/node" "*"
     playwright-core "1.22.2"
 
-"@theia/playwright@1.27.0":
-  version "1.27.0"
-  resolved "https://registry.yarnpkg.com/@theia/playwright/-/playwright-1.27.0.tgz#b72a63dada76ef2ec4ca92fe545caba23f4e17e9"
-  integrity sha512-0OqMO7kcPSY/y752q4GVxsD+FG1QkgcSY/EtldcilSvj9N6sZNIOkXpMVMfwCKjwoywNGCWm2Wq+HpTtErONww==
+"@theia/playwright@1.31.0":
+  version "1.31.0"
+  resolved "https://registry.yarnpkg.com/@theia/playwright/-/playwright-1.31.0.tgz#181e0b1fb986212e0c294d5176435d5ed91c3b58"
+  integrity sha512-kMiDGHr+y8o01AZpFl8r+BcqARq909tfYW9JUZzcCerFKMVimglMRRjFp5u/1RiDS8ii04Oos/blizYb20dhdw==
   dependencies:
     "@playwright/test" "1.22.2"
     fs-extra "^9.0.8"
@@ -155,10 +155,10 @@ properties@^1.2.1:
   resolved "https://registry.yarnpkg.com/properties/-/properties-1.2.1.tgz#0ee97a7fc020b1a2a55b8659eda4aa8d869094bd"
   integrity sha1-Dul6f8AgsaKlW4ZZ7aSqjYaQlL0=
 
-rimraf@^2.6.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
-  integrity sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==
+rimraf@^3.0.0:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
+  integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
   dependencies:
     glob "^7.1.3"
 
