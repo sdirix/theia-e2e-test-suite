@@ -14,7 +14,7 @@
 // SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
 // *****************************************************************************
 
-import { PlaywrightTestConfig } from '@playwright/test';
+import { PlaywrightTestConfig, devices } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
     testDir: '../lib/tests',
@@ -24,10 +24,15 @@ const config: PlaywrightTestConfig = {
     timeout: 60 * 1000,
     use: {
         baseURL: 'http://localhost:3000',
-        browserName: 'chromium',
         screenshot: 'only-on-failure',
         viewport: { width: 1920, height: 1080 }
     },
+    projects: [
+        {
+            name: 'Google Chrome',
+            use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+        },
+    ],
     snapshotDir: '../tests/snapshots',
     expect: {
         toMatchSnapshot: { threshold: 0.15 }

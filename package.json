@@ -6,7 +6,7 @@
   "scripts": {
     "prepare": "yarn clean && yarn build",
     "clean": "rimraf lib tsconfig.tsbuildinfo",
-    "build": "tsc --incremental && npx playwright install chromium",
+    "build": "tsc --incremental",
     "ui-tests": "yarn && playwright test --config=./configs/playwright.config.ts",
     "ui-tests-ci": "yarn && playwright test --config=./configs/playwright.ci.config.ts",
     "ui-tests-headful": "yarn && playwright test --config=./configs/playwright.headful.config.ts",
